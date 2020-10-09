@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.result{
+    width: 80vw;
+    height: 10vh;
+    text-align: center;
+    background: cornsilk;
+    line-height:10vh;
+}
+.gussing-content{
+    width: 80vw;
+    height: 50vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gussing-content > div{
+    text-align: center;
+    line-height: 20vh;
+    width: 30vh;
+    height: 20vh;
+    background-color: whitesmoke;
+}
