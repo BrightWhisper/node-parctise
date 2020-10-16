@@ -11,4 +11,3 @@ http.createServer(function (req, res) {
 }).listen(3000);
 
 console.log('open a server at 3000 port');
-console.log('test merge');
